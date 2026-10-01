@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Google Analytics 4 - Measurement ID G-6E9FP2R4K8. -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6E9FP2R4K8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-6E9FP2R4K8');
+</script>
+
+<!-- OneSignal - push notifications. App ID 1ce9cba4-d2b7-4c18-a568-ba3019f99988. -->
+<script>
+  window.OneSignalDeferred = window.OneSignalDeferred || [];
+  const isBrandGaliDomain = window.location.hostname === 'www.brandgali.com' || window.location.hostname === 'brandgali.com';
+  if (isBrandGaliDomain) {
+    const s = document.createElement('script');
+    s.src = "https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js";
+    s.defer = true;
+    document.head.appendChild(s);
+
+    OneSignalDeferred.push(async function(OneSignal) {
+      try {
+        await OneSignal.init({
+          appId: "1ce9cba4-d2b7-4c18-a568-ba3019f99988",
+        });
+        window.__oneSignalInstance = OneSignal;
+        window.dispatchEvent(new Event('brandgali:onesignal-ready'));
+      } catch (err) {
+        console.warn('OneSignal initialization error:', err);
+      }
+    });
+  } else {
+    // Graceful fallback for preview / development environments so alert toggles work without error
+    window.__oneSignalInstance = {
+      User: {
+        addTag: function(tag, val) {
+          console.log('[BrandGali Alert Tag]', tag, val);
+        },
+        removeTag: function(tag) {
+          console.log('[BrandGali Alert Removed]', tag);
+        }
+      }
+    };
+  }
+</script>
+
+<title>BrandGali - Every Brand You Love. One Gali.</title>
+<meta name="description" content="Pakistan's digital high street. Discover every brand, follow your favourites, and get notified the moment their sale goes live.">
+<meta property="og:title" content="BrandGali - Every Brand You Love. One Gali.">
+<meta property="og:description" content="Pakistan's digital high street. Discover every brand, follow your favourites, and get notified the moment their sale goes live.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="/assets/brandgali-logo.png">
+<meta name="theme-color" content="#D35400">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="BrandGali">
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" type="image/png" href="/assets/favicon.png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div class="shell">
+
+  <div class="ticker-bar" id="tickerBar">
+    <div class="ticker-track" id="tickerTrack"></div>
+  </div>
+
+  <header class="topbar">
+    <a href="index.html" class="logo-link" aria-label="BrandGali Home"><img src="/assets/brandgali-logo.png" alt="BrandGali logo" class="brand-header-logo" onerror="if(!this.dataset.retry){this.dataset.retry=1;this.src='/assets/brandgali-logo.jpeg';}"><span class="brand-logo-text">brand<span>gali</span></span></a>
+    <div class="icon-row">
+      <button class="icon-btn" id="searchBtn" aria-label="Search" title="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
+      <button class="icon-btn user-btn" id="userAccountBtn" aria-label="Account" title="Sign In / Register">
+        <div class="user-avatar-dot"><i class="fa-solid fa-user"></i></div>
+      </button>
+      <button class="icon-btn" id="menuBtn" aria-label="Menu" title="Menu"><i class="fa-solid fa-bars"></i></button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="eyebrow">Pakistan's Digital High Street</div>
+      <h1>Never Miss A Sale <span class="accent">Again.</span></h1>
+      <p class="tagline">Every Pakistani brand. Every sale. One Gali.</p>
+      <div class="search-box" id="heroSearchBox">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <span>Search polo shirts, 30% off, brands, lawn, sneakers...</span>
+        <button class="go" id="heroSearchBtn" aria-label="Search"><i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+      <div class="hero-search-tags">
+        <span style="font-weight:700;color:var(--navy);"><i class="fa-solid fa-arrow-trend-up" style="color:var(--orange-deep);"></i> Popular:</span>
+        <button type="button" class="hero-search-chip" data-query="polo shirts"><i class="fa-solid fa-shirt"></i> Polo shirts</button>
+        <button type="button" class="hero-search-chip" data-query="30 percent off"><i class="fa-solid fa-percent"></i> 30% Off</button>
+        <button type="button" class="hero-search-chip" data-query="flat 50% off"><i class="fa-solid fa-fire"></i> Flat 50% Off</button>
+        <button type="button" class="hero-search-chip" data-query="lawn sale"><i class="fa-solid fa-sun"></i> Lawn sale</button>
+        <button type="button" class="hero-search-chip" data-query="sneakers"><i class="fa-solid fa-shoe-prints"></i> Sneakers</button>
+        <button type="button" class="hero-search-chip" data-query="under 3000"><i class="fa-solid fa-wallet"></i> Under 3K</button>
+      </div>
+      <div class="quick-row">
+        <a href="live-sales.html">
+          <i class="fa-solid fa-fire"></i>
+          <span class="quick-title">Live Sales</span>
+          <span class="quick-sub">Explore now</span>
+        </a>
+        <a href="brands.html">
+          <i class="fa-solid fa-tag"></i>
+          <span class="quick-title">Discover Brands</span>
+          <span class="quick-sub">Browse all</span>
+        </a>
+        <a href="#alertsSection" id="quickAlertsLink">
+          <i class="fa-solid fa-bell"></i>
+          <span class="quick-title">Follow &amp; Get Alerts</span>
+          <span class="quick-sub">Never miss a sale</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Dedicated Feed Switcher: All Brands vs My Followed ("My High Street") -->
+    <div class="feed-tabs-container">
+      <div class="feed-tabs" role="tablist" aria-label="Feed Selection">
+        <button type="button" class="feed-tab active" id="tabAllFeed" role="tab" aria-selected="true">
+          <i class="fa-solid fa-store"></i> All High Street
+        </button>
+        <button type="button" class="feed-tab" id="tabFollowedFeed" role="tab" aria-selected="false">
+          <i class="fa-solid fa-heart" style="color:var(--orange-deep);"></i> My Followed Brands <span class="tab-badge" id="followedCountBadge">0</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Browser Push / Web Alerts Opt-In Banner -->
+    <div class="web-push-banner" id="webPushBanner">
+      <div class="push-icon-box" aria-hidden="true">
+        <i class="fa-solid fa-bell"></i>
+      </div>
+      <div class="push-body">
+        <div class="push-header">
+          <strong class="push-title">Instant Morning Sale Alerts</strong>
+          <span class="push-badge"><i class="fa-solid fa-bolt"></i> Real-Time</span>
+        </div>
+        <p class="push-desc">Receive an instant browser notification the minute Sapphire, Gul Ahmed, or your followed brands drop a sale.</p>
+      </div>
+      <div class="push-action">
+        <button type="button" class="btn-push-enable" id="webPushBannerBtn" onclick="window.BrandGaliAlerts && window.BrandGaliAlerts.requestPermission()">
+          <i class="fa-solid fa-bolt"></i> Turn On Alerts
+        </button>
+      </div>
+    </div>
+
+    <section class="section" id="live-sales-section">
+      <div class="section-head">
+        <h2><i class="fa-solid fa-fire"></i><span id="liveSalesHeading">Live Sales</span> <span class="pill" id="liveSalesCount"></span></h2>
+        <a href="live-sales.html" class="see-all">View All &rarr;</a>
+      </div>
+      <div class="rail" id="liveSalesRail"></div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2><i class="fa-solid fa-star"></i>Popular Brands</h2>
+        <a href="brands.html?filter=featured" class="see-all">View All &rarr;</a>
+      </div>
+      <div class="rail" id="popularBrandsRail"></div>
+    </section>
+
+    <section class="section" id="categories">
+      <div class="section-head">
+        <h2><i class="fa-solid fa-table-cells"></i>Shop By Category</h2>
+        <a href="brands.html" class="see-all">View All &rarr;</a>
+      </div>
+      <div class="cat-grid" id="catGrid"></div>
+    </section>
+
+    <section class="section" id="nearMeSection">
+      <div class="section-head" style="margin-bottom:10px;">
+        <h2><i class="fa-solid fa-location-dot" style="color:var(--orange-deep);"></i>Brands Near Me</h2>
+        <span class="pill" id="nearMeCountBadge">Stores Nationwide</span>
+      </div>
+      <div class="near-me-card">
+        <p class="near-me-intro">Find brands with physical stores close to you, or just pick a city.</p>
+        
+        <button class="near-me-locate-btn" id="useMyLocationBtn" type="button" onclick="detectUserLocationAndStores()">
+          <i class="fa-solid fa-crosshairs"></i> Use My Location
+        </button>
+        
+        <div class="near-me-select-wrap">
+          <select id="citySelect" class="near-me-select" onchange="onCitySelected(this.value)">
+            <option value="">Or choose a city...</option>
+            <option value="Lahore">Lahore</option>
+            <option value="Karachi">Karachi</option>
+            <option value="Islamabad">Islamabad</option>
+            <option value="Rawalpindi">Rawalpindi</option>
+            <option value="Faisalabad">Faisalabad</option>
+            <option value="Multan">Multan</option>
+            <option value="Peshawar">Peshawar</option>
+            <option value="Sialkot">Sialkot</option>
+            <option value="Gujranwala">Gujranwala</option>
+            <option value="Hyderabad">Hyderabad</option>
+          </select>
+          <i class="fa-solid fa-chevron-down near-me-select-icon"></i>
+        </div>
+        
+        <p class="near-me-disclaimer">We only ask for your location if you tap the button above.</p>
+        
+        <div id="nearMeResults" class="near-me-results"></div>
+
+        <div style="text-align:center;margin-top:12px;">
+          <a href="javascript:void(0)" id="browseAllPhysicalBtn" class="near-me-browse-link" onclick="browseAllPhysicalStores()">Or browse all brands with physical stores &rarr;</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2><i class="fa-solid fa-sparkles"></i>Curated Collections</h2>
+      </div>
+      <div class="collections" id="collectionsGrid"></div>
+    </section>
+
+    <section class="section" id="alertsSection">
+      <div class="alerts-box">
+        <div class="section-head" style="margin-bottom:8px;"><h2><i class="fa-solid fa-bell"></i>Never Miss A Sale</h2></div>
+        <p>Follow your favourite brands and get notified the moment they go on sale.</p>
+        <div id="alertsList"></div>
+        <a href="brands.html" class="btn btn-block" style="display:block;text-align:center;margin-top:10px;">Manage My Alerts &rarr;</a>
+      </div>
+    </section>
+
+    <div class="mini-footer">
+      <div style="display:flex;align-items:center;justify-content:center;gap:8px;margin-bottom:8px;">
+        <img src="/assets/brandgali-logo.png" alt="BrandGali logo" style="height:26px;width:auto;max-width:26px;object-fit:contain;" onerror="if(!this.dataset.retry){this.dataset.retry=1;this.src='/assets/brandgali-logo.jpeg';}">
+        <span class="brand-logo-text" style="font-size:16px;">brand<span>gali</span></span>
+      </div>
+      <p>&copy; 2026 BrandGali. Every brand you love. One Gali.</p>
+      <p><a href="https://www.instagram.com/brandsgali/" target="_blank" rel="noopener">Follow on Instagram</a></p>
+    </div>
+  </main>
+
+  <nav class="bottom-nav">
+    <a href="index.html" class="active"><i class="fa-solid fa-house"></i>Home</a>
+    <a href="live-sales.html" class=""><i class="fa-solid fa-fire"></i>Live Sales</a>
+    <a href="brands.html" class=""><i class="fa-solid fa-shop"></i>Brands</a>
+    <a href="#categories" id="bottomNavCategoriesLink" class=""><i class="fa-solid fa-table-cells"></i>Categories</a>
+    <a href="#" class="" id="moreNavBtn"><i class="fa-solid fa-bars"></i>More</a>
+  </nav>
+</div>
+
+<div class="drawer-backdrop" id="drawerBackdrop"></div>
+<aside class="drawer" id="drawer">
+  <div class="drawer-head">
+    <div style="display:flex;align-items:center;gap:8px;">
+      <img src="/assets/brandgali-logo.png" alt="BrandGali logo" style="height:28px;width:auto;max-width:28px;object-fit:contain;" onerror="if(!this.dataset.retry){this.dataset.retry=1;this.src='/assets/brandgali-logo.jpeg';}">
+      <span class="brand-logo-text" style="font-size:18px;">brand<span>gali</span></span>
+    </div>
+    <button class="drawer-close" id="drawerClose" aria-label="Close menu"><i class="fa-solid fa-xmark"></i></button>
+  </div>
+  <a href="index.html" class="drawer-nav-link">Home</a>
+  <a href="live-sales.html" class="drawer-nav-link">Live Sales</a>
+  <a href="brands.html" class="drawer-nav-link">All Brands</a>
+  <a href="#categories" class="drawer-nav-link" id="drawerCategoriesLink">Shop By Category</a>
+  <div id="drawerCategories"></div>
+</aside>
+
+<div class="search-overlay" id="searchOverlay" role="dialog" aria-modal="true" aria-label="BrandGali Search">
+  <div class="search-modal-card">
+    <div class="search-head">
+      <div class="search-input-wrap">
+        <i class="fa-solid fa-magnifying-glass search-icon-left"></i>
+        <input type="text" id="searchInput" placeholder="Search polo shirts, 30% off, lawn, sneakers, brands..." autocomplete="off">
+        <button type="button" class="search-clear-btn" id="searchClearBtn" aria-label="Clear search">&times;</button>
+      </div>
+      <button class="search-close-btn" id="searchCloseBtn" aria-label="Close search"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <div id="searchResults"></div>
+  </div>
+</div>
+
+<script>
+  window.BRANDS = window.BRANDS || [];
+  window.CATEGORIES = window.CATEGORIES || [];
+  window.loadSalesStatus = window.loadSalesStatus || function() {
+    return Promise.resolve(window.BRANDS || []);
+  };
+</script>
+<script type="module" src="/src/auth-ui.ts"></script>
+<script src="/brands-data.js" onerror="if(!this.dataset.retried){this.dataset.retried='1';this.src='/public/brands-data.js';}"></script>
+<script>
+const CAT_COLORS = ['navy','orange-deep','teal-deep'];
+
+function renderDrawerCategories(){
+  const el = document.getElementById('drawerCategories');
+  if(!el) return;
+  el.innerHTML = CATEGORIES.map(cat => {
+    const count = BRANDS.filter(b => b.category === cat.name).length;
+    return `<h4>${cat.name}</h4><ul><li><a href="brands.html?category=${encodeURIComponent(cat.name)}">View all ${cat.name} (${count}) &rarr;</a></li></ul>`;
+  }).join('');
+}
+
+function wireDrawerAndSearch(){
+  const drawer = document.getElementById('drawer');
+  const backdrop = document.getElementById('drawerBackdrop');
+  const openDrawer = () => { drawer.classList.add('open'); backdrop.classList.add('open'); };
+  const closeDrawer = () => { drawer.classList.remove('open'); backdrop.classList.remove('open'); };
+  document.getElementById('moreNavBtn')?.addEventListener('click', (e) => { e.preventDefault(); openDrawer(); });
+  document.getElementById('menuBtn')?.addEventListener('click', openDrawer);
+  document.getElementById('drawerClose')?.addEventListener('click', closeDrawer);
+  backdrop?.addEventListener('click', closeDrawer);
+
+  // Search trigger hooks
+  document.getElementById('searchBtn')?.addEventListener('click', () => window.openSearchOverlay(''));
+  document.getElementById('heroSearchBtn')?.addEventListener('click', () => window.openSearchOverlay(''));
+  document.getElementById('heroSearchBox')?.addEventListener('click', (e) => {
+    if (e.target.closest('.hero-search-chip')) return;
+    window.openSearchOverlay('');
+  });
+}
+
+function tickerHTML(){
+  const live = BRANDS.filter(b => b.live);
+  if(!live.length) return '';
+  const text = b => (b.sale && b.sale.headline) || (b.live && b.live.off) || 'Sale live now';
+  return live.map(b => `<a href="${b.url}" target="_blank" rel="noopener" data-gtm-brand="${b.id}" data-gtm-name="${b.name}" data-gtm-category="${b.category}" data-gtm-source="ticker"><i class="fa-solid fa-fire"></i>${b.name} - ${text(b)}</a>`).join('<span class="ticker-sep">&bull;</span>');
+}
+
+function renderTicker(){
+  const bar = document.getElementById('tickerBar');
+  const track = document.getElementById('tickerTrack');
+  const html = tickerHTML();
+  if(!html){ bar.classList.add('empty'); return; }
+  bar.classList.remove('empty');
+  track.innerHTML = html + '<span class="ticker-sep">&bull;</span>' + html;
+}
+
+let currentHomeFeedTab = 'all';
+
+function updateFollowedBadge() {
+  const badge = document.getElementById('followedCountBadge');
+  if (badge && window.getFollowedBrandsList) {
+    const count = window.getFollowedBrandsList().length;
+    badge.textContent = count;
+  }
+}
+
+function quickFollowStarBrands() {
+  const topIds = ['sapphire', 'khaadi', 'j', 'gulahmed'];
+  topIds.forEach(id => {
+    if (window.toggleFollowBrand && !window.isFollowingBrand(id)) {
+      window.toggleFollowBrand(id);
+    }
+  });
+  updateFollowedBadge();
+  if (window.refreshNotifyButtonsUI) window.refreshNotifyButtonsUI();
+  renderLiveSales(true);
+}
+window.quickFollowStarBrands = quickFollowStarBrands;
+
+function wireFeedTabs() {
+  const tabAll = document.getElementById('tabAllFeed');
+  const tabFollowed = document.getElementById('tabFollowedFeed');
+
+  tabAll?.addEventListener('click', () => {
+    if (currentHomeFeedTab === 'all') return;
+    currentHomeFeedTab = 'all';
+    tabAll.classList.add('active');
+    tabAll.setAttribute('aria-selected', 'true');
+    tabFollowed.classList.remove('active');
+    tabFollowed.setAttribute('aria-selected', 'false');
+    renderLiveSales(true);
+  });
+
+  tabFollowed?.addEventListener('click', () => {
+    if (currentHomeFeedTab === 'followed') return;
+    currentHomeFeedTab = 'followed';
+    tabFollowed.classList.add('active');
+    tabFollowed.setAttribute('aria-selected', 'true');
+    tabAll.classList.remove('active');
+    tabAll.setAttribute('aria-selected', 'false');
+    renderLiveSales(true);
+  });
+
+  updateFollowedBadge();
+}
+
+function renderLiveSales(withSkeleton = false){
+  const rail = document.getElementById('liveSalesRail');
+  const countEl = document.getElementById('liveSalesCount');
+  const headingEl = document.getElementById('liveSalesHeading');
+  if (!rail) return;
+
+  if (withSkeleton && window.renderSkeletonCardsHTML) {
+    rail.innerHTML = window.renderSkeletonCardsHTML(3);
+    setTimeout(() => renderLiveSales(false), 150);
+    return;
+  }
+
+  updateFollowedBadge();
+
+  if (currentHomeFeedTab === 'followed') {
+    if (headingEl) headingEl.textContent = 'My Followed Deals';
+    const followedIds = window.getFollowedBrandsList ? window.getFollowedBrandsList() : [];
+    
+    if (followedIds.length === 0) {
+      countEl.textContent = '0 brands followed';
+      rail.innerHTML = `
+        <div style="padding:22px 18px;background:var(--card);border:1.5px dashed var(--line);border-radius:16px;text-align:center;width:100%;max-width:540px;margin:8px auto;">
+          <div style="font-size:28px;margin-bottom:6px;">💖</div>
+          <strong style="display:block;color:var(--navy);font-size:14.5px;font-family:'Poppins';margin-bottom:4px;">Your Followed Feed is Empty</strong>
+          <p style="font-size:12.5px;color:var(--muted);margin:0 0 14px;line-height:1.4;">Follow brands to customize your high street and receive instant morning sale alerts.</p>
+          <div style="display:flex;gap:8px;justify-content:center;flex-wrap:wrap;">
+            <button type="button" class="btn" onclick="quickFollowStarBrands()" style="background:var(--orange);color:#fff;font-size:12px;padding:8px 16px;border-radius:8px;font-weight:700;">
+              <i class="fa-solid fa-sparkles"></i> Follow Sapphire, Khaadi, J. &amp; Gul Ahmed
+            </button>
+            <a href="brands.html" class="btn" style="background:#EDE8DF;color:var(--navy);font-size:12px;padding:8px 14px;border-radius:8px;text-decoration:none;font-weight:700;">
+              Browse All Brands
+            </a>
+          </div>
+        </div>`;
+      return;
+    }
+
+    const followedLive = BRANDS.filter(b => b.status === 'sale' && followedIds.includes(b.id));
+    countEl.textContent = `${followedLive.length} active`;
+
+    if (followedLive.length === 0) {
+      rail.innerHTML = `
+        <div style="padding:20px 16px;background:var(--card);border:1px solid var(--line);border-radius:14px;text-align:center;width:100%;max-width:500px;margin:8px auto;">
+          <div style="font-size:24px;margin-bottom:4px;">⏰</div>
+          <strong style="display:block;color:var(--navy);font-size:14px;margin-bottom:4px;">No Sales on Your Followed Labels Today</strong>
+          <p style="font-size:12px;color:var(--muted);margin:0 0 12px;">You're following ${followedIds.length} brand${followedIds.length===1?'':'s'}. We'll notify you as soon as one starts a sale!</p>
+          <button type="button" class="btn" onclick="document.getElementById('tabAllFeed').click()" style="background:var(--navy);color:#fff;font-size:12px;padding:6px 14px;border-radius:8px;">
+            View All Live Sales
+          </button>
+        </div>`;
+      return;
+    }
+
+    renderCardsToRail(rail, followedLive);
+    return;
+  }
+
+  // All brands feed
+  if (headingEl) headingEl.textContent = 'Live Sales';
+  const live = BRANDS.filter(b => b.status === 'sale');
+  countEl.textContent = live.length + (live.length === 1 ? ' sale happening now' : ' sales happening now');
+  if(!live.length){ rail.innerHTML = '<p class="empty-note">No live sales right now - check back soon.</p>'; return; }
+
+  renderCardsToRail(rail, live);
+}
+
+function renderCardsToRail(rail, list) {
+  rail.innerHTML = list.map(b => {
+    const sale = b.sale || {};
+    const urgency = sale.urgency ? `<span class="urgency-tag" style="font-size:9.5px;padding:2px 6px;border-radius:4px;background:#FDE8E8;color:#D5473F;font-weight:700;margin-left:4px;"><i class="fa-solid fa-stopwatch"></i> ${sale.urgency}</span>` : '';
+    const discount = (b.live && b.live.off) || 'SALE';
+    const timelinessHTML = window.renderDealTimelinessBadge ? `<div style="margin-top:4px;">${window.renderDealTimelinessBadge(b)}</div>` : '';
+    return `<article class="sale-card" data-brand="${b.id}">
+      <div class="sale-media" onclick="openBrandSaleModal('${b.id}')" role="button" tabindex="0" title="View ${b.name} active sale on BrandGali" aria-label="View ${b.name} sale items">
+        ${brandBadgeHTML(b, 56)}
+        <div class="media-view-hint"><i class="fa-solid fa-fire"></i> View Deals</div>
+        <div class="sale-badge">${discount}</div>
+      </div>
+      <div class="sale-body">
+        <div class="sale-brand" onclick="openBrandSaleModal('${b.id}')" role="button" tabindex="0" title="Click to view ${b.name} sales happening">${b.name} ${urgency}</div>
+        <div class="sale-meta">${b.category} &bull; ${sale.headline || 'Live sale active'}</div>
+        ${timelinessHTML}
+        <div class="card-actions" style="margin-top:10px;">
+          <button class="btn" type="button" onclick="openBrandSaleModal('${b.id}')" aria-label="View active deals for ${b.name}"><i class="fa-solid fa-fire" style="margin-right:4px;"></i> View Sale &rarr;</button>
+          ${notifyButtonHTML(b)}
+        </div>
+      </div>
+    </article>`;
+  }).join('');
+
+  wireNotifyButtons();
+}
+
+function renderPopularBrands(){
+  const rail = document.getElementById('popularBrandsRail');
+  const list = BRANDS.filter(b => b.featured);
+  rail.innerHTML = list.map(b => `<div class="brand-tile" onclick="openBrandSaleModal('${b.id}')" role="button" tabindex="0" title="Tap to view ${b.name} sales happening" style="cursor:pointer;">
+    ${brandBadgeHTML(b, 28)}
+    <span>${b.name}</span>
+  </div>`).join('');
+}
+
+function renderCategories(){
+  const grid = document.getElementById('catGrid');
+  const icons = {'Clothing':'fa-shirt','Footwear':'fa-shoe-prints','Home Décor':'fa-couch','Lifestyle':'fa-star','Kitchen & Accessories':'fa-kitchen-set','Bags':'fa-bag-shopping'};
+  grid.innerHTML = CATEGORIES.map((cat, i) => {
+    const count = BRANDS.filter(b => b.category === cat.name).length;
+    const color = `var(--${CAT_COLORS[i % CAT_COLORS.length]})`;
+    return `<a class="cat-tile" href="brands.html?category=${encodeURIComponent(cat.name)}">
+      <div class="cat-circle" style="background:${color};"><i class="fa-solid ${icons[cat.name] || cat.icon}"></i></div>
+      ${cat.name}<span class="cat-count">${count} brand${count===1?'':'s'}</span>
+    </a>`;
+  }).join('');
+}
+
+function renderCollections(){
+  const grid = document.getElementById('collectionsGrid');
+  const liveCount = BRANDS.filter(b => b.status === 'sale').length;
+  const newCount = BRANDS.filter(b => b.status === 'new').length;
+  const featuredCount = BRANDS.filter(b => b.featured).length;
+  const collections = [
+    { tag:'Live Now', title:`${liveCount} Sales Live Right Now`, desc:'Shop every active discount &rarr;', href:'live-sales.html', bg:'linear-gradient(110deg,#F08A1E,#F5A623)' },
+    { tag:'Top Picks', title:`${featuredCount} Featured Brands`, desc:'Our most-followed names &rarr;', href:'brands.html?filter=featured', bg:'linear-gradient(110deg,#1B2A5E,#3A4E92)' },
+    { tag:'New Arrivals', title:`${newCount} Fresh Drops`, desc:'Just landed on BrandGali &rarr;', href:'brands.html?filter=new', bg:'linear-gradient(110deg,#0B7D68,#0EA98B)' },
+    { tag:'Directory', title:`All ${BRANDS.length} Brands`, desc:'Browse the full BrandGali &rarr;', href:'brands.html', bg:'linear-gradient(110deg,#59616B,#8B93A0)' },
+  ];
+  grid.innerHTML = collections.map(c => `<a class="collection" href="${c.href}" style="background:${c.bg};">
+    <small>${c.tag}</small>
+    <h3>${c.title}</h3>
+    <p>${c.desc}</p>
+  </a>`).join('');
+}
+
+function renderAlerts(){
+  const el = document.getElementById('alertsList');
+  const list = BRANDS.filter(b => b.featured);
+  el.innerHTML = list.map(b => `<div class="alert-row">
+    ${brandBadgeHTML(b, 28)}
+    <span class="alert-name">${b.name}</span>
+    ${notifyButtonHTML(b)}
+  </div>`).join('');
+}
+
+let isHomePageInitialized = false;
+function initHomePage() {
+  const getSalesStatus = (typeof loadSalesStatus === 'function')
+    ? loadSalesStatus
+    : (typeof window.loadSalesStatus === 'function' ? window.loadSalesStatus : () => Promise.resolve(window.BRANDS || []));
+
+  getSalesStatus().then(() => {
+    wireFeedTabs();
+    renderTicker();
+    renderLiveSales();
+    renderPopularBrands();
+    renderCategories();
+    renderCollections();
+    renderAlerts();
+    renderDrawerCategories();
+    wireDrawerAndSearch();
+    wireNotifyButtons();
+    refreshNotifyButtonsUI();
+    if (window.BrandGaliAlerts && typeof window.BrandGaliAlerts.init === 'function') {
+      window.BrandGaliAlerts.init();
+    }
+
+    if (!isHomePageInitialized) {
+      isHomePageInitialized = true;
+      // Smooth navigation to Shop By Category
+      const toCategories = (e) => {
+        if (e) e.preventDefault();
+        const catEl = document.getElementById('categories');
+        if (catEl) {
+          catEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          history.replaceState(null, '', '#categories');
+        }
+      };
+      document.getElementById('bottomNavCategoriesLink')?.addEventListener('click', toCategories);
+      document.getElementById('drawerCategoriesLink')?.addEventListener('click', (e) => {
+        toCategories(e);
+        document.getElementById('drawer')?.classList.remove('open');
+        document.getElementById('drawerBackdrop')?.classList.remove('open');
+      });
+
+      // Quick Alerts smooth scroll
+      document.getElementById('quickAlertsLink')?.addEventListener('click', (e) => {
+        e.preventDefault();
+        document.getElementById('alertsSection')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        history.replaceState(null, '', '#alertsSection');
+      });
+
+      if (window.location.hash === '#categories') {
+        setTimeout(toCategories, 200);
+      }
+    }
+  }).catch((err) => {
+    console.warn('BrandGali Home initialization warning:', err);
+  });
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initHomePage);
+} else {
+  initHomePage();
+}
+
+window.addEventListener('brandgali:data-ready', () => {
+  initHomePage();
+});
+</script>
+</body>
+</html>

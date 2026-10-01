@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 90" width="300" height="90">
+  <rect width="300" height="90" rx="12" fill="#212529"/>
+  <g transform="translate(24, 20)">
+    <rect x="0" y="0" width="46" height="46" rx="4" fill="none" stroke="#D4AF37" stroke-width="2"/>
+    <text x="23" y="32" text-anchor="middle" fill="#D4AF37" font-family="'Cinzel', 'Times New Roman', serif" font-weight="700" font-size="20">DV</text>
+  </g>
+  <text x="82" y="44" fill="#FFFFFF" font-family="'Cinzel', 'Playfair Display', serif" font-weight="700" font-size="20" letter-spacing="3">DOLCE VITA</text>
+  <text x="84" y="63" fill="#D4AF37" font-family="'Montserrat', sans-serif" font-weight="600" font-size="12" letter-spacing="6">HOME</text>
+</svg>

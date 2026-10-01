@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 90" width="300" height="90">
+  <rect width="300" height="90" rx="12" fill="#141414"/>
+  <g transform="translate(24, 18)">
+    <circle cx="24" cy="26" r="20" fill="none" stroke="#C5A059" stroke-width="2"/>
+    <text x="24" y="34" text-anchor="middle" fill="#C5A059" font-family="'Cinzel', 'Times New Roman', serif" font-weight="700" font-size="22">I</text>
+  </g>
+  <text x="82" y="54" fill="#C5A059" font-family="'Cinzel', 'Trajan Pro', 'Didot', serif" font-weight="700" font-size="25" letter-spacing="5">INSIGNIA</text>
+</svg>

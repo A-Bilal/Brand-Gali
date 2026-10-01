@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 90" width="300" height="90">
+  <rect width="300" height="90" rx="12" fill="#58111A"/>
+  <g transform="translate(18, 22)">
+    <path d="M22 0 L44 22 L22 44 L0 22 Z" fill="#D4AF37"/>
+    <circle cx="22" cy="22" r="7" fill="#58111A"/>
+  </g>
+  <text x="74" y="44" fill="#FFFFFF" font-family="'Times New Roman', 'Playfair Display', serif" font-weight="800" font-size="22" letter-spacing="3">BONANZA</text>
+  <text x="75" y="64" fill="#D4AF37" font-family="'Montserrat', sans-serif" font-weight="600" font-size="12" letter-spacing="5">SATRANGI</text>
+</svg>

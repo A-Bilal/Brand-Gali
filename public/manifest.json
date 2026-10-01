@@ -1,0 +1,33 @@
+{
+  "id": "/",
+  "name": "BrandGali - Pakistani Brands & Live Sales",
+  "short_name": "BrandGali",
+  "description": "Every Pakistani brand you love. One digital high street. Follow your favourites and get notified the moment their sales go live.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#FFFDF8",
+  "theme_color": "#D35400",
+  "categories": ["shopping", "lifestyle"],
+  "icons": [
+    {
+      "src": "/assets/favicon.png",
+      "sizes": "32x32",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/brandgali-logo.png",
+      "sizes": "303x334",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

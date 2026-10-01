@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 90" width="300" height="90">
+  <rect width="300" height="90" rx="12" fill="#C92A2A"/>
+  <g transform="translate(24, 18)">
+    <circle cx="26" cy="26" r="22" fill="#FFFFFF"/>
+    <text x="26" y="36" text-anchor="middle" fill="#C92A2A" font-family="'Arial Black', sans-serif" font-weight="900" font-size="24">1st</text>
+  </g>
+  <text x="84" y="46" fill="#FFFFFF" font-family="'Montserrat', 'Arial Black', sans-serif" font-weight="900" font-size="24" letter-spacing="2">1ST STEP</text>
+  <text x="86" y="65" fill="#FFE3E3" font-family="'Montserrat', sans-serif" font-weight="600" font-size="12" letter-spacing="4">SHOES &amp; BAGS</text>
+</svg>

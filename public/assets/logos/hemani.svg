@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 90" width="300" height="90">
+  <rect width="300" height="90" rx="12" fill="#1B5E20"/>
+  <g transform="translate(24, 18)" fill="#81C784">
+    <!-- Leaves -->
+    <path d="M14 42 C14 26 26 12 40 12 C40 26 28 42 14 42 Z"/>
+    <path d="M40 42 C40 26 28 12 14 12 C14 26 26 42 40 42 Z" opacity="0.6"/>
+  </g>
+  <text x="76" y="47" fill="#FFFFFF" font-family="'Montserrat', 'Arial', sans-serif" font-weight="900" font-size="24" letter-spacing="3">HEMANI</text>
+  <text x="78" y="65" fill="#C8E6C9" font-family="'Century Gothic', sans-serif" font-weight="600" font-size="11" letter-spacing="4">NATURAL HERBALS</text>
+</svg>

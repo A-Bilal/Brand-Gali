@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 90" width="300" height="90">
+  <rect width="300" height="90" rx="12" fill="#781D26"/>
+  <g transform="translate(24, 18)" fill="#F6E05E">
+    <circle cx="24" cy="26" r="16" fill="none" stroke="#F6E05E" stroke-width="2"/>
+    <circle cx="24" cy="26" r="6"/>
+    <circle cx="24" cy="14" r="3"/>
+    <circle cx="24" cy="38" r="3"/>
+    <circle cx="12" cy="26" r="3"/>
+    <circle cx="36" cy="26" r="3"/>
+  </g>
+  <text x="76" y="47" fill="#FFFFFF" font-family="'Playfair Display', 'Baskerville', serif" font-weight="700" font-size="24" letter-spacing="3">KAYSERIA</text>
+  <text x="78" y="65" fill="#F6E05E" font-family="'Brush Script MT', cursive, sans-serif" font-style="italic" font-size="13" letter-spacing="1">Magic in Prints</text>
+</svg>

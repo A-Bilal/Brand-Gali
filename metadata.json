@@ -1,0 +1,6 @@
+{
+  "name": "BrandGali",
+  "description": "Pakistan's digital high street to discover brands, track live sales, and follow favourites.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

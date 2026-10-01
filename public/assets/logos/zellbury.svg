@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 90" width="300" height="90">
+  <rect width="300" height="90" rx="12" fill="#1A1A1A"/>
+  <rect x="24" y="24" width="42" height="42" rx="6" fill="#D32F2F"/>
+  <text x="45" y="55" text-anchor="middle" fill="#FFFFFF" font-family="'Arial Black', sans-serif" font-weight="900" font-size="28">Z</text>
+  <text x="78" y="54" fill="#FFFFFF" font-family="'Montserrat', 'Arial', sans-serif" font-weight="800" font-size="26" letter-spacing="3">ZELLBURY</text>
+</svg>

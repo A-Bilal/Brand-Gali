@@ -1,0 +1,91 @@
+{
+  "entities": {
+    "UserProfile": {
+      "title": "UserProfile",
+      "description": "User account profile storing account info and timestamps",
+      "type": "object",
+      "properties": {
+        "uid": {
+          "type": "string",
+          "description": "Firebase Auth user ID",
+          "maxLength": 128
+        },
+        "email": {
+          "type": "string",
+          "format": "email",
+          "description": "User email address",
+          "maxLength": 128
+        },
+        "displayName": {
+          "type": "string",
+          "description": "User display name",
+          "maxLength": 100
+        },
+        "createdAt": {
+          "type": "string",
+          "description": "ISO timestamp of user registration"
+        },
+        "updatedAt": {
+          "type": "string",
+          "description": "ISO timestamp of user profile update"
+        }
+      },
+      "required": [
+        "uid",
+        "email",
+        "createdAt"
+      ]
+    },
+    "BrandAlert": {
+      "title": "BrandAlert",
+      "description": "Individual brand notification alert preference subscribed to by the user",
+      "type": "object",
+      "properties": {
+        "brandId": {
+          "type": "string",
+          "description": "Unique identifier of the brand",
+          "maxLength": 64,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "brandName": {
+          "type": "string",
+          "description": "Human-readable brand name",
+          "maxLength": 100
+        },
+        "userId": {
+          "type": "string",
+          "description": "Firebase Auth user ID of the subscriber",
+          "maxLength": 128
+        },
+        "enabled": {
+          "type": "boolean",
+          "description": "Whether the notification is active"
+        },
+        "createdAt": {
+          "type": "string",
+          "description": "Timestamp when alert subscription was created"
+        },
+        "updatedAt": {
+          "type": "string",
+          "description": "Timestamp when alert subscription was updated"
+        }
+      },
+      "required": [
+        "brandId",
+        "userId",
+        "enabled",
+        "createdAt"
+      ]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "UserProfile",
+      "description": "User account document containing profile information"
+    },
+    "/users/{userId}/notifications/{brandId}": {
+      "schema": "BrandAlert",
+      "description": "Subcollection storing brand sale alert subscriptions for each user"
+    }
+  }
+}

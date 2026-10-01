@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 90" width="300" height="90">
+  <rect width="300" height="90" rx="12" fill="#78141F"/>
+  <g transform="translate(24, 20)" fill="#E8C374">
+    <!-- Crown / Crest -->
+    <path d="M4 32 L8 12 L18 22 L24 6 L30 22 L40 12 L44 32 Z"/>
+    <rect x="4" y="34" width="40" height="6" rx="2"/>
+    <circle cx="8" cy="8" r="3"/>
+    <circle cx="24" cy="2" r="3"/>
+    <circle cx="40" cy="8" r="3"/>
+  </g>
+  <text x="80" y="54" fill="#FFFFFF" font-family="'Trajan Pro', 'Cinzel', 'Times New Roman', serif" font-weight="700" font-size="26" letter-spacing="4">EDENROBE</text>
+</svg>

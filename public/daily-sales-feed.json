@@ -1,0 +1,771 @@
+{
+  "updatedAt": "2026-10-01T20:03:42.801Z",
+  "totalBrandsTracked": 12,
+  "brands": {
+    "khaadi": {
+      "brandId": "khaadi",
+      "brandName": "Khaadi",
+      "domain": "pk.khaadi.com",
+      "status": "sale",
+      "maxDiscount": "Up to 50% Off",
+      "products": [
+        {
+          "name": "3-Piece Tailored Suit",
+          "currentPrice": "PKR 8,100",
+          "originalPrice": "PKR 13,500",
+          "discount": "40% Off",
+          "image": "https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw52477aeb/images/hi-res/t-a33-26-201fa1_multi_1.jpg?sw=400&sh=600",
+          "url": "https://pk.khaadi.com/3-piece-tailored-suit/T-A33-26-201FA1-VG_MULTI.html?source=plp",
+          "isSale": true
+        },
+        {
+          "name": "Floral Tailored 3-Piece",
+          "currentPrice": "PKR 7,800",
+          "originalPrice": "PKR 13,000",
+          "discount": "40% Off",
+          "image": "https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dwea674839/images/hi-res/t-chd09b-r_multi_1.jpg?sw=400&sh=600",
+          "url": "https://pk.khaadi.com/floral-tailored-3-piece/T-CHD09B-R-VG_MULTI.html?source=plp",
+          "isSale": true
+        },
+        {
+          "name": "Black Lawn Kurta",
+          "currentPrice": "PKR 3,000",
+          "originalPrice": "PKR 5,000",
+          "discount": "40% Off",
+          "image": "https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw649dc4b5/images/hi-res/1-26-244-a-d1_multi_1.jpg?sw=400&sh=600",
+          "url": "https://pk.khaadi.com/black-lawn-kurta/1-26-244-A-D1-VG_MULTI.html?source=plp",
+          "isSale": true
+        },
+        {
+          "name": "Tailored 3-Piece Set",
+          "currentPrice": "PKR 6,900",
+          "originalPrice": "PKR 11,500",
+          "discount": "40% Off",
+          "image": "https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dwfde517b1/images/hi-res/t-a22-26-201fc1_multi_1.jpg?sw=400&sh=600",
+          "url": "https://pk.khaadi.com/tailored-3-piece-set/T-A22-26-201FC1-VG_MULTI.html?source=plp",
+          "isSale": true
+        },
+        {
+          "name": "Broshia 3-Piece Tailored",
+          "currentPrice": "PKR 6,900",
+          "originalPrice": "PKR 11,500",
+          "discount": "40% Off",
+          "image": "https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw107575d0/images/hi-res/t-a22-26-201fa2_multi_1.jpg?sw=400&sh=600",
+          "url": "https://pk.khaadi.com/broshia-3-piece-tailored/T-A22-26-201FA2-VG_MULTI.html?source=plp",
+          "isSale": true
+        },
+        {
+          "name": "Tailored 3-Piece Set",
+          "currentPrice": "PKR 7,500",
+          "originalPrice": "PKR 12,500",
+          "discount": "40% Off",
+          "image": "https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw7908d6a4/images/hi-res/t-chd18yb-r_multi_1.jpg?sw=400&sh=600",
+          "url": "https://pk.khaadi.com/tailored-3-piece-set/T-CHD18YB-R-VG_MULTI.html?source=plp",
+          "isSale": true
+        },
+        {
+          "name": "Floral Tailored 3-Piece",
+          "currentPrice": "PKR 6,600",
+          "originalPrice": "PKR 11,000",
+          "discount": "40% Off",
+          "image": "https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dwbbc0ada8/images/hi-res/t-a22-26-214fc1_multi_1.jpg?sw=400&sh=600",
+          "url": "https://pk.khaadi.com/floral-tailored-3-piece/T-A22-26-214FC1-VG_MULTI.html?source=plp",
+          "isSale": true
+        },
+        {
+          "name": "Sleeveless Floral Kurta",
+          "currentPrice": "PKR 2,400",
+          "originalPrice": "PKR 4,000",
+          "discount": "40% Off",
+          "image": "https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw22f4034d/images/hi-res/1-26-229-a-f1_multi_1.jpg?sw=400&sh=600",
+          "url": "https://pk.khaadi.com/sleeveless-floral-kurta/1-26-229-A-F1-VG_MULTI.html?source=plp",
+          "isSale": true
+        }
+      ],
+      "lastChecked": "2026-10-01T20:03:40.764Z"
+    },
+    "sapphire": {
+      "brandId": "sapphire",
+      "brandName": "Sapphire",
+      "domain": "pk.sapphireonline.pk",
+      "status": "sale",
+      "maxDiscount": "Up to 40% Off",
+      "products": [
+        {
+          "name": "3 Piece - Embroidered Lawn Suit",
+          "currentPrice": "PKR 8,994",
+          "originalPrice": "PKR 14,990",
+          "discount": "40% Off",
+          "image": "https://pk.sapphireonline.pk/dw/image/v2/BKSB_PRD/on/demandware.static/-/Sites-sapphire-master-catalog/default/dwca20472d/images/April26/22ndApril26/U3PESUS26V41_1.JPG?sw=1000&sh=1200",
+          "url": "https://pk.sapphireonline.pk/collections/sale/products/U3PESUS26V41.html",
+          "isSale": true
+        },
+        {
+          "name": "3 Piece - Printed Lawn Suit",
+          "currentPrice": "PKR 3,432",
+          "originalPrice": "PKR 4,290",
+          "discount": "20% Off",
+          "image": "https://pk.sapphireonline.pk/dw/image/v2/BKSB_PRD/on/demandware.static/-/Sites-sapphire-master-catalog/default/dwe57cc6e3/images/July26/1stJuly26/U3PDDS26V620_1.jpg?sw=1000&sh=1200",
+          "url": "https://pk.sapphireonline.pk/products/U3PDDS26V620.html",
+          "isSale": true
+        },
+        {
+          "name": "3 Piece - Printed Lawn Suit",
+          "currentPrice": "PKR 3,213",
+          "originalPrice": "PKR 4,590",
+          "discount": "30% Off",
+          "image": "https://pk.sapphireonline.pk/dw/image/v2/BKSB_PRD/on/demandware.static/-/Sites-sapphire-master-catalog/default/dw6014c512/images/July26/31stJuly26/U3PDYS26V714_1.JPG?sw=1000&sh=1200",
+          "url": "https://pk.sapphireonline.pk/products/U3PDYS26V714.html",
+          "isSale": true
+        },
+        {
+          "name": "3 Piece - Printed Zari Lawn Suit",
+          "currentPrice": "PKR 3,672",
+          "originalPrice": "PKR 4,590",
+          "discount": "20% Off",
+          "image": "https://pk.sapphireonline.pk/dw/image/v2/BKSB_PRD/on/demandware.static/-/Sites-sapphire-master-catalog/default/dw7fa09224/images/July26/31stJuly26/U2DDDS26V745_1.JPG?sw=1000&sh=1200",
+          "url": "https://pk.sapphireonline.pk/products/U2DDDS26V745.html",
+          "isSale": true
+        },
+        {
+          "name": "3 Piece - Embroidered Lawn Suit",
+          "currentPrice": "PKR 3,832",
+          "originalPrice": "PKR 4,790",
+          "discount": "20% Off",
+          "image": "https://pk.sapphireonline.pk/dw/image/v2/BKSB_PRD/on/demandware.static/-/Sites-sapphire-master-catalog/default/dwda8aba9f/images/June26/8thJune26/U2DEDYS26V59_1.jpg?sw=1000&sh=1200",
+          "url": "https://pk.sapphireonline.pk/products/U2DEDYS26V59.html",
+          "isSale": true
+        },
+        {
+          "name": "3 Piece - Embroidered Lawn Suit",
+          "currentPrice": "PKR 3,992",
+          "originalPrice": "PKR 4,990",
+          "discount": "20% Off",
+          "image": "https://pk.sapphireonline.pk/dw/image/v2/BKSB_PRD/on/demandware.static/-/Sites-sapphire-master-catalog/default/dwba9eff2f/images/July26/3rdJuly26Part2/3PEDYS26V640_1.JPG?sw=1000&sh=1200",
+          "url": "https://pk.sapphireonline.pk/products/3PEDYS26V640.html",
+          "isSale": true
+        },
+        {
+          "name": "3 Piece - Printed Lawn Suit",
+          "currentPrice": "PKR 3,672",
+          "originalPrice": "PKR 4,590",
+          "discount": "20% Off",
+          "image": "https://pk.sapphireonline.pk/dw/image/v2/BKSB_PRD/on/demandware.static/-/Sites-sapphire-master-catalog/default/dw04b934a2/images/Aug26/5thAug26P2/0U3PDYS26V79_1.JPG?sw=1000&sh=1200",
+          "url": "https://pk.sapphireonline.pk/products/0U3PDYS26V79.html",
+          "isSale": true
+        },
+        {
+          "name": "3 Piece - Embroidered Zari Lawn Suit",
+          "currentPrice": "PKR 4,232",
+          "originalPrice": "PKR 5,290",
+          "discount": "20% Off",
+          "image": "https://pk.sapphireonline.pk/dw/image/v2/BKSB_PRD/on/demandware.static/-/Sites-sapphire-master-catalog/default/dwe61a5fb8/images/July26/3rdJuly26Part2/3PEDYS26V633_1.JPG?sw=1000&sh=1200",
+          "url": "https://pk.sapphireonline.pk/products/3PEDYS26V633.html",
+          "isSale": true
+        }
+      ],
+      "lastChecked": "2026-10-01T20:03:41.350Z"
+    },
+    "gul-ahmed": {
+      "brandId": "gul-ahmed",
+      "brandName": "Gul Ahmed",
+      "domain": "www.gulahmedshop.com",
+      "status": "sale",
+      "maxDiscount": "Up to 50% Off",
+      "products": [
+        {
+          "name": "3 Piece Printed Lawn Suit with Printed Lawn Dupatta",
+          "currentPrice": "PKR 2,874",
+          "originalPrice": "PKR 4,790",
+          "discount": "40% Off",
+          "image": "https://cdn.shopify.com/s/files/1/0706/3253/8159/files/Printed-Lawn-Dupatta-Printed-Lawn-Shirt-Dyed-Trouser-Gulahmed-CLP-62056-Front.jpg?v=1785499003",
+          "url": "https://www.gulahmedshop.com/products/3-piece-printed-lawn-suit-with-printed-lawn-dupatta-clp-62056",
+          "isSale": true
+        },
+        {
+          "name": "3 Piece Printed Lawn Suit",
+          "currentPrice": "PKR 2,874",
+          "originalPrice": "PKR 4,790",
+          "discount": "40% Off",
+          "image": "https://cdn.shopify.com/s/files/1/0706/3253/8159/files/Printed-Lawn-Dupatta-Printed-Lawn-Shirt-Dyed-Trouser-Gulahmed-CLP-52143-Front.jpg?v=1780470342",
+          "url": "https://www.gulahmedshop.com/products/3-piece-printed-lawn-suit-clp-52143",
+          "isSale": true
+        },
+        {
+          "name": "Cotton Viscose Printed Co-Ord Set",
+          "currentPrice": "PKR 3,843",
+          "originalPrice": "PKR 7,685",
+          "discount": "50% Off",
+          "image": "https://cdn.shopify.com/s/files/1/0706/3253/8159/files/kst-43358_1.jpg?v=1758378761",
+          "url": "https://www.gulahmedshop.com/products/cotton-viscose-printed-co-ord-set-kst-43358",
+          "isSale": true
+        },
+        {
+          "name": "Tencil Viscose Printed Co-Ord Set",
+          "currentPrice": "PKR 3,894",
+          "originalPrice": "PKR 6,490",
+          "discount": "40% Off",
+          "image": "https://cdn.shopify.com/s/files/1/0706/3253/8159/files/TencilViscosePrintedCo-OrdSetIPST-55058_front.jpg?v=1761815526",
+          "url": "https://www.gulahmedshop.com/products/tencil-viscose-printed-co-ord-set-ipst-55058",
+          "isSale": true
+        },
+        {
+          "name": "Cotton Viscose Printed Co-Ord Set",
+          "currentPrice": "PKR 4,048",
+          "originalPrice": "PKR 8,096",
+          "discount": "50% Off",
+          "image": "https://cdn.shopify.com/s/files/1/0706/3253/8159/files/W-AP-24-406462.jpg?v=1781516416",
+          "url": "https://www.gulahmedshop.com/products/cotton-viscose-printed-co-ord-set-kst-43363",
+          "isSale": true
+        },
+        {
+          "name": "Viscose Crepe Printed Co-Ord Set",
+          "currentPrice": "PKR 4,194",
+          "originalPrice": "PKR 6,990",
+          "discount": "40% Off",
+          "image": "https://cdn.shopify.com/s/files/1/0706/3253/8159/files/ViscoseCrepePrintedCo-OrdSetIpst-55062_front.jpg?v=1762770908",
+          "url": "https://www.gulahmedshop.com/products/viscose-crepe-printed-co-ord-set-ipst-55062",
+          "isSale": true
+        },
+        {
+          "name": "3PC Khaddar Embroidered Suit",
+          "currentPrice": "PKR 8,394",
+          "originalPrice": "PKR 13,990",
+          "discount": "40% Off",
+          "image": "https://cdn.shopify.com/s/files/1/0706/3253/8159/files/3PCKhaddarEmbroideredSuitIPSTD-55084_DUPATTA.jpg?v=1764835859",
+          "url": "https://www.gulahmedshop.com/products/3pc-khaddar-embroidered-suit-ipstd-55084",
+          "isSale": true
+        },
+        {
+          "name": "Relaxed Fit Top",
+          "currentPrice": "PKR 2,694",
+          "originalPrice": "PKR 4,490",
+          "discount": "40% Off",
+          "image": "https://cdn.shopify.com/s/files/1/0706/3253/8159/files/Salt-Women-Top-Color-Purple-80_-Rayon-20_-Polyester-Relaxed-Fit-WM-COD-SS26-UP09T-Front.jpg?v=1784966876",
+          "url": "https://www.gulahmedshop.com/products/relaxed-fit-top-wm-cod-ss26-up09t",
+          "isSale": true
+        }
+      ],
+      "lastChecked": "2026-10-01T20:03:41.447Z"
+    },
+    "outfitters": {
+      "brandId": "outfitters",
+      "brandName": "Outfitters",
+      "domain": "outfitters.com.pk",
+      "status": "none",
+      "maxDiscount": "Special Offers",
+      "products": [],
+      "lastChecked": "2026-10-01T20:03:41.620Z"
+    },
+    "j-junaid-jamshed": {
+      "brandId": "j-junaid-jamshed",
+      "brandName": "J. Junaid Jamshed",
+      "domain": "www.junaidjamshed.com",
+      "status": "none",
+      "maxDiscount": "Special Offers",
+      "products": [],
+      "lastChecked": "2026-10-01T20:03:41.809Z"
+    },
+    "sana-safinaz": {
+      "brandId": "sana-safinaz",
+      "brandName": "Sana Safinaz",
+      "domain": "www.sanasafinaz.com",
+      "status": "sale",
+      "maxDiscount": "Up to 40% Off",
+      "products": [
+        {
+          "name": "Stitched Printed Lawn Suit",
+          "currentPrice": "PKR 6,117",
+          "originalPrice": "PKR 8,739",
+          "discount": "30% Off",
+          "image": "https://cdn.shopify.com/s/files/1/0740/1753/8280/files/SS26MHY202BP3-1.jpg?v=1790684821",
+          "url": "https://www.sanasafinaz.com/products/stitched-printed-lawn-suit-ss26mhy110ap3",
+          "isSale": true
+        },
+        {
+          "name": "Stitched Printed Lawn Suit",
+          "currentPrice": "PKR 7,175",
+          "originalPrice": "PKR 8,969",
+          "discount": "20% Off",
+          "image": "https://cdn.shopify.com/s/files/1/0740/1753/8280/files/SS26MHY201BP3-1.jpg?v=1790768919",
+          "url": "https://www.sanasafinaz.com/products/stitched-printed-lawn-suit-ss26mhy201bp3",
+          "isSale": true
+        },
+        {
+          "name": "Stitched Printed Lawn Shirt+ Shalwar",
+          "currentPrice": "PKR 3,794",
+          "originalPrice": "PKR 6,324",
+          "discount": "40% Off",
+          "image": "https://cdn.shopify.com/s/files/1/0740/1753/8280/files/SS26MHY108BP2T-1.jpg?v=1790591698",
+          "url": "https://www.sanasafinaz.com/products/stitched-printed-lawn-shirt-shalwar-ss26mhy108bp2t",
+          "isSale": true
+        },
+        {
+          "name": "Stitched Printed Lawn Suit",
+          "currentPrice": "PKR 5,036",
+          "originalPrice": "PKR 8,394",
+          "discount": "40% Off",
+          "image": "https://cdn.shopify.com/s/files/1/0740/1753/8280/files/SS26MHY102BP3-1.jpg?v=1790591257",
+          "url": "https://www.sanasafinaz.com/products/stitched-printed-lawn-suit-ss26mhy102bp3",
+          "isSale": true
+        },
+        {
+          "name": "Stitched Printed Basic Viscose Shirt+ Culotte",
+          "currentPrice": "PKR 5,312",
+          "originalPrice": "PKR 7,589",
+          "discount": "30% Off",
+          "image": "https://cdn.shopify.com/s/files/1/0740/1753/8280/files/SS26BSP152P2T_3_b0e68d70-6d5d-47b5-8475-c7a7a4234e24.jpg?v=1784610238",
+          "url": "https://www.sanasafinaz.com/products/stitched-printed-basic-viscose-shirt-culotte-ss26bsp152p2t",
+          "isSale": true
+        },
+        {
+          "name": "Stitched Embroidered Lawn Shirt+ Shalwar",
+          "currentPrice": "PKR 19,158",
+          "originalPrice": "PKR 27,369",
+          "discount": "30% Off",
+          "image": "https://cdn.shopify.com/s/files/1/0740/1753/8280/files/SS26SGE428P3_7.jpg?v=1779205531",
+          "url": "https://www.sanasafinaz.com/products/stitched-embroidered-lawn-shirt-shalwar-ss26sge428p3",
+          "isSale": true
+        },
+        {
+          "name": "Stitched Embroidered Lawn Shirt+ Culotte",
+          "currentPrice": "PKR 14,087",
+          "originalPrice": "PKR 20,124",
+          "discount": "30% Off",
+          "image": "https://cdn.shopify.com/s/files/1/0740/1753/8280/files/SS26SGE414P2T_b4fec548-0a94-44fa-91bc-0f1f44351a6c.jpg?v=1777975523",
+          "url": "https://www.sanasafinaz.com/products/stitched-embroidered-lawn-shirt-culotte-ss26sge414p2t",
+          "isSale": true
+        },
+        {
+          "name": "Stitched Printed Lawn Shirt+ Culotte",
+          "currentPrice": "PKR 5,232",
+          "originalPrice": "PKR 7,474",
+          "discount": "30% Off",
+          "image": "https://cdn.shopify.com/s/files/1/0740/1753/8280/files/SS26BSP373P2T_1_50c8c090-6e42-4e4d-8436-cfce93a89236.jpg?v=1784611864",
+          "url": "https://www.sanasafinaz.com/products/stitched-printed-lawn-shirt-culotte-5",
+          "isSale": true
+        }
+      ],
+      "lastChecked": "2026-10-01T20:03:41.900Z"
+    },
+    "nishat-linen": {
+      "brandId": "nishat-linen",
+      "brandName": "Nishat Linen",
+      "domain": "nishatlinen.com",
+      "status": "none",
+      "maxDiscount": "Special Offers",
+      "products": [
+        {
+          "name": "3 Piece - Digital Printed Embroidered Suit - U3PE-NISHA26WV1-70",
+          "currentPrice": "PKR 6,990",
+          "originalPrice": null,
+          "discount": null,
+          "image": "https://cdn.shopify.com/s/files/1/0534/2065/4791/files/U3PE-NISHA26WV1-70-_4.jpg?v=1788851246",
+          "url": "https://nishatlinen.com/products/u3pe-nisha26wv1-70",
+          "isSale": null
+        },
+        {
+          "name": "2 Piece - Embroidered Suit - U2STE-NISHA26WV1-11",
+          "currentPrice": "PKR 4,990",
+          "originalPrice": null,
+          "discount": null,
+          "image": "https://cdn.shopify.com/s/files/1/0534/2065/4791/files/U2STE-NISHA26WV1-11-_3.jpg?v=1788850398",
+          "url": "https://nishatlinen.com/products/u2ste-nisha26wv1-11",
+          "isSale": null
+        },
+        {
+          "name": "3 Piece - Printed Suit - U3P-NISHA26WV1-17",
+          "currentPrice": "PKR 5,990",
+          "originalPrice": null,
+          "discount": null,
+          "image": "https://cdn.shopify.com/s/files/1/0534/2065/4791/files/U3P-NISHA26WV1-17-_4.jpg?v=1788851742",
+          "url": "https://nishatlinen.com/products/u3p-nisha26wv1-17",
+          "isSale": null
+        },
+        {
+          "name": "3 Piece - Digital Printed Suit - U3P-NISHA26WV1-50",
+          "currentPrice": "PKR 4,990",
+          "originalPrice": null,
+          "discount": null,
+          "image": "https://cdn.shopify.com/s/files/1/0534/2065/4791/files/U3P-NISHA26WV1-50-_2.jpg?v=1788851940",
+          "url": "https://nishatlinen.com/products/u3p-nisha26wv1-50",
+          "isSale": null
+        },
+        {
+          "name": "3 Piece - Printed Embroidered Suit - U3PE-NISHA26WV1-20",
+          "currentPrice": "PKR 6,490",
+          "originalPrice": null,
+          "discount": null,
+          "image": "https://cdn.shopify.com/s/files/1/0534/2065/4791/files/U3PE-NISHA26WV1-20-_2.jpg?v=1788850767",
+          "url": "https://nishatlinen.com/products/u3pe-nisha26wv1-20",
+          "isSale": null
+        },
+        {
+          "name": "3 Piece - Printed Embroidered Suit - U3PE-NISHA26WV1-21",
+          "currentPrice": "PKR 6,490",
+          "originalPrice": null,
+          "discount": null,
+          "image": "https://cdn.shopify.com/s/files/1/0534/2065/4791/files/U3PE-NISHA26WV1-21-_2.jpg?v=1788850835",
+          "url": "https://nishatlinen.com/products/u3pe-nisha26wv1-21",
+          "isSale": null
+        },
+        {
+          "name": "2 Piece - Printed Embroidered Suit - U2STE-NISHA26WV1-6",
+          "currentPrice": "PKR 4,590",
+          "originalPrice": null,
+          "discount": null,
+          "image": "https://cdn.shopify.com/s/files/1/0534/2065/4791/files/U2STE-NISHA26WV1-6-_4.jpg?v=1788850309",
+          "url": "https://nishatlinen.com/products/u2ste-nisha26wv1-6",
+          "isSale": null
+        },
+        {
+          "name": "2 Piece - Printed Embroidered Suit - U2STE-NISHA26WV1-28",
+          "currentPrice": "PKR 4,590",
+          "originalPrice": null,
+          "discount": null,
+          "image": "https://cdn.shopify.com/s/files/1/0534/2065/4791/files/U2STE-NISHA26WV1-28-_6_61433e90-1ea9-45f7-9648-609fad8bd787.jpg?v=1788850582",
+          "url": "https://nishatlinen.com/products/u2ste-nisha26wv1-28",
+          "isSale": null
+        }
+      ],
+      "lastChecked": "2026-10-01T20:03:42.118Z"
+    },
+    "al-karam-studio": {
+      "brandId": "al-karam-studio",
+      "brandName": "Alkaram Studio",
+      "domain": "www.alkaramstudio.com",
+      "status": "sale",
+      "maxDiscount": "Up to 30% Off",
+      "products": [
+        {
+          "name": "RTS | SHIRT",
+          "currentPrice": "PKR 973",
+          "originalPrice": "PKR 1,390",
+          "discount": "30% Off",
+          "image": "https://cdn.shopify.com/s/files/1/0623/6481/1444/files/BD24-26-Purple-1_b1fc6173-3204-4b60-8470-1fd94d33252c.jpg?v=1767686976",
+          "url": "https://www.alkaramstudio.com/products/rts-shirt-bd24-26-purple",
+          "isSale": true
+        },
+        {
+          "name": "RTS | SHIRT",
+          "currentPrice": "PKR 973",
+          "originalPrice": "PKR 1,390",
+          "discount": "30% Off",
+          "image": "https://cdn.shopify.com/s/files/1/0623/6481/1444/files/BD23-26-Purple-1_44dce0e1-e920-40ae-a634-4b24d035110e.jpg?v=1767686974",
+          "url": "https://www.alkaramstudio.com/products/rts-shirt-bd23-26-purple",
+          "isSale": true
+        },
+        {
+          "name": "RTS | SHIRT & TROUSER",
+          "currentPrice": "PKR 1,813",
+          "originalPrice": "PKR 2,590",
+          "discount": "30% Off",
+          "image": "https://cdn.shopify.com/s/files/1/0623/6481/1444/files/BR53-2P26-Grey-1.jpg?v=1767768645",
+          "url": "https://www.alkaramstudio.com/products/rts-shirt-trouser-br53-2p26-grey",
+          "isSale": true
+        },
+        {
+          "name": "RTS | SHIRT & TROUSER",
+          "currentPrice": "PKR 1,953",
+          "originalPrice": "PKR 2,790",
+          "discount": "30% Off",
+          "image": "https://cdn.shopify.com/s/files/1/0623/6481/1444/files/BD58-2P26-beige-1_3f88bef2-b6f8-482e-9e83-1d4fd8b86d17.jpg?v=1767768747",
+          "url": "https://www.alkaramstudio.com/products/rts-shirt-trouser-bd58-2p26-baige",
+          "isSale": true
+        },
+        {
+          "name": "RTS | SHIRT & DUPATTA",
+          "currentPrice": "PKR 1,953",
+          "originalPrice": "PKR 2,790",
+          "discount": "30% Off",
+          "image": "https://cdn.shopify.com/s/files/1/0623/6481/1444/files/BD42-2P26-White-1.jpg?v=1767768509",
+          "url": "https://www.alkaramstudio.com/products/rts-shirt-dupatta-bd42-2p26-white",
+          "isSale": true
+        },
+        {
+          "name": "RTS  | SHIRT",
+          "currentPrice": "PKR 833",
+          "originalPrice": "PKR 1,190",
+          "discount": "30% Off",
+          "image": "https://cdn.shopify.com/s/files/1/0623/6481/1444/files/SLR-83-25-6-Mustard-1_07d028c9-7df2-41d6-b58d-e60bce874c3a.jpg?v=1760082877",
+          "url": "https://www.alkaramstudio.com/products/rts-shirt-slr-83-25-6-mustard",
+          "isSale": true
+        },
+        {
+          "name": "RTS | SHIRT",
+          "currentPrice": "PKR 833",
+          "originalPrice": "PKR 1,190",
+          "discount": "30% Off",
+          "image": "https://cdn.shopify.com/s/files/1/0623/6481/1444/files/BR11-26-Light_Coral-1_662eea0d-0c69-4c6e-a34a-803a0d401f49.jpg?v=1767687004",
+          "url": "https://www.alkaramstudio.com/products/rts-shirt-br11-26-light-coral",
+          "isSale": true
+        },
+        {
+          "name": "RTS | SHIRT & TROUSER",
+          "currentPrice": "PKR 2,072",
+          "originalPrice": "PKR 2,590",
+          "discount": "20% Off",
+          "image": "https://cdn.shopify.com/s/files/1/0623/6481/1444/files/BR174-2P26-3-Lilac-1.jpg?v=1776065383",
+          "url": "https://www.alkaramstudio.com/products/rts-shirt-trouser-br174-2p26-3-lilac",
+          "isSale": true
+        }
+      ],
+      "lastChecked": "2026-10-01T20:03:42.210Z"
+    },
+    "zellbury": {
+      "brandId": "zellbury",
+      "brandName": "Zellbury",
+      "domain": "zellbury.com",
+      "status": "none",
+      "maxDiscount": "Special Offers",
+      "products": [
+        {
+          "name": "Embroidered Shirt Shalwar Dupatta - 4131",
+          "currentPrice": "PKR 4,990",
+          "originalPrice": null,
+          "discount": null,
+          "image": "https://cdn.shopify.com/s/files/1/0595/3260/7535/files/WUS26E34131_4_3.jpg?v=1790761710",
+          "url": "https://zellbury.com/products/shirt-shalwar-dupatta-wus26e34131",
+          "isSale": null
+        },
+        {
+          "name": "Embroidered Shirt Shalwar Dupatta - 4116",
+          "currentPrice": "PKR 4,990",
+          "originalPrice": null,
+          "discount": null,
+          "image": "https://cdn.shopify.com/s/files/1/0595/3260/7535/files/WUS26E34116_4_2.jpg?v=1790761746",
+          "url": "https://zellbury.com/products/shirt-shalwar-dupatta-wus26e34116",
+          "isSale": null
+        },
+        {
+          "name": "Embroidered Shirt Shalwar Dupatta - 4115",
+          "currentPrice": "PKR 4,990",
+          "originalPrice": null,
+          "discount": null,
+          "image": "https://cdn.shopify.com/s/files/1/0595/3260/7535/files/WUS26E34115_2.jpg?v=1790761746",
+          "url": "https://zellbury.com/products/shirt-shalwar-dupatta-wus26e34115",
+          "isSale": null
+        },
+        {
+          "name": "Embroidered Shirt Shalwar Dupatta - 4100",
+          "currentPrice": "PKR 4,490",
+          "originalPrice": null,
+          "discount": null,
+          "image": "https://cdn.shopify.com/s/files/1/0595/3260/7535/files/WUS26E34100_4_2.jpg?v=1790761704",
+          "url": "https://zellbury.com/products/shirt-shalwar-dupatta-wus26e34100",
+          "isSale": null
+        },
+        {
+          "name": "Embroidered Shirt Shalwar Dupatta - 4121",
+          "currentPrice": "PKR 4,990",
+          "originalPrice": null,
+          "discount": null,
+          "image": "https://cdn.shopify.com/s/files/1/0595/3260/7535/files/WUS26E34121_4_2.jpg?v=1790761746",
+          "url": "https://zellbury.com/products/shirt-shalwar-dupatta-wus26e34121",
+          "isSale": null
+        },
+        {
+          "name": "Embroidered Shirt Shalwar Dupatta - 4125",
+          "currentPrice": "PKR 4,990",
+          "originalPrice": null,
+          "discount": null,
+          "image": "https://cdn.shopify.com/s/files/1/0595/3260/7535/files/WUS26E34125_4_2.jpg?v=1790761746",
+          "url": "https://zellbury.com/products/shirt-shalwar-dupatta-wus26e34125",
+          "isSale": null
+        },
+        {
+          "name": "Shirt Dupatta - 1064",
+          "currentPrice": "PKR 1,990",
+          "originalPrice": null,
+          "discount": null,
+          "image": "https://cdn.shopify.com/s/files/1/0595/3260/7535/files/WUS26X21064_3_1.png?v=1784034172",
+          "url": "https://zellbury.com/products/shirt-dupatta-wus26x21064",
+          "isSale": false
+        },
+        {
+          "name": "Shirt Shalwar Dupatta - 0050",
+          "currentPrice": "PKR 2,690",
+          "originalPrice": null,
+          "discount": null,
+          "image": "https://cdn.shopify.com/s/files/1/0595/3260/7535/files/WUCQ1X30050_3.jpg?v=1789634787",
+          "url": "https://zellbury.com/products/shirt-shalwar-dupatta-wucq1x30050",
+          "isSale": false
+        }
+      ],
+      "lastChecked": "2026-10-01T20:03:42.389Z"
+    },
+    "limelight": {
+      "brandId": "limelight",
+      "brandName": "Limelight",
+      "domain": "www.limelight.pk",
+      "status": "sale",
+      "maxDiscount": "Up to 26% Off",
+      "products": [
+        {
+          "name": "2 Piece Lawn Suit- Embroidered (Pret)",
+          "currentPrice": "PKR 6,399",
+          "originalPrice": "PKR 8,499",
+          "discount": "25% Off",
+          "image": "https://cdn.shopify.com/s/files/1/2635/3244/files/A6779ST-SML-002-2PieceLawnSuit-Embroidered_Pret_2.jpg?v=1784635241",
+          "url": "https://www.limelight.pk/products/a6779st-xsl-002",
+          "isSale": true
+        },
+        {
+          "name": "3 Piece Lawn Slub Suit- Embroidered (Pret)",
+          "currentPrice": "PKR 6,999",
+          "originalPrice": "PKR 9,499",
+          "discount": "26% Off",
+          "image": "https://cdn.shopify.com/s/files/1/2635/3244/files/A5138SU-SML-014-3PieceLawnSlubSuit-Embroidered_Pret_4.jpg?v=1784634905",
+          "url": "https://www.limelight.pk/products/a5138su-xsl-014",
+          "isSale": true
+        },
+        {
+          "name": "3 Piece Lawn Suit- Embroidered (Pret)",
+          "currentPrice": "PKR 6,699",
+          "originalPrice": "PKR 8,899",
+          "discount": "25% Off",
+          "image": "https://cdn.shopify.com/s/files/1/2635/3244/files/A5117SU-SML-002-3PieceLawnSuit-Embroidered_Pret_3.jpg?v=1784637141",
+          "url": "https://www.limelight.pk/products/a5117su-xsl-002",
+          "isSale": true
+        },
+        {
+          "name": "2 Piece Lawn Suit- Embroidered (Pret)",
+          "currentPrice": "PKR 4,499",
+          "originalPrice": "PKR 5,999",
+          "discount": "25% Off",
+          "image": "https://cdn.shopify.com/s/files/1/2635/3244/files/A5086ST-SML-256-2PieceLawnSuit-Embroidered_Pret_1.jpg?v=1784635505",
+          "url": "https://www.limelight.pk/products/a5086st-xsl-256",
+          "isSale": true
+        },
+        {
+          "name": "2 Piece Lawn Suit (Pret)",
+          "currentPrice": "PKR 3,999",
+          "originalPrice": "PKR 4,999",
+          "discount": "20% Off",
+          "image": "https://cdn.shopify.com/s/files/1/2635/3244/files/A3070ST-SML-199-2PieceLawnSuit_Pret_4.jpg?v=1784634748",
+          "url": "https://www.limelight.pk/products/a3070st-xsl-199",
+          "isSale": true
+        },
+        {
+          "name": "Lawn Angrakha (Pret)",
+          "currentPrice": "PKR 2,999",
+          "originalPrice": "PKR 3,999",
+          "discount": "25% Off",
+          "image": "https://cdn.shopify.com/s/files/1/2635/3244/files/A6519AG-SML-034-LawnAngrakha_Pret_1.jpg?v=1784634029",
+          "url": "https://www.limelight.pk/products/a6519ag-xsl-034",
+          "isSale": true
+        },
+        {
+          "name": "2 Piece Lawn Suit (Pret)",
+          "currentPrice": "PKR 3,699",
+          "originalPrice": "PKR 4,999",
+          "discount": "26% Off",
+          "image": "https://cdn.shopify.com/s/files/1/2635/3244/files/A6502ST-SML-565-2PieceLawnSuit_Pret_2.jpg?v=1784633953",
+          "url": "https://www.limelight.pk/products/a6502st-xsl-565",
+          "isSale": true
+        },
+        {
+          "name": "2 Piece Lawn Suit (Pret)",
+          "currentPrice": "PKR 5,499",
+          "originalPrice": "PKR 6,999",
+          "discount": "21% Off",
+          "image": "https://cdn.shopify.com/s/files/1/2635/3244/files/A6494ST-SML-034-2PieceLawnSuit_Pret_2.jpg?v=1784633876",
+          "url": "https://www.limelight.pk/products/a6494st-xsl-034",
+          "isSale": true
+        }
+      ],
+      "lastChecked": "2026-10-01T20:03:42.545Z"
+    },
+    "bonanza-satrangi": {
+      "brandId": "bonanza-satrangi",
+      "brandName": "Bonanza Satrangi",
+      "domain": "bonanzasatrangi.com",
+      "status": "sale",
+      "maxDiscount": "Up to 50% Off",
+      "products": [
+        {
+          "name": "Beige-Lawn-3 Piece (WP3PPBS26B1F43)",
+          "currentPrice": "PKR 5,273",
+          "originalPrice": "PKR 8,789",
+          "discount": "40% Off",
+          "image": "https://cdn.shopify.com/s/files/1/0872/1278/5848/files/WP3PPBS26B1F43_615bdfe0-998e-4c7b-8dd0-88f03fdf8a3b.jpg?v=1775114491",
+          "url": "https://bonanzasatrangi.com/products/wp3ppbs26b1f43",
+          "isSale": true
+        },
+        {
+          "name": "MINT-CAMBRIC-3 PIECE (WU3PPBW25LI1J24P)",
+          "currentPrice": "PKR 5,471",
+          "originalPrice": "PKR 9,119",
+          "discount": "40% Off",
+          "image": "https://cdn.shopify.com/s/files/1/0872/1278/5848/files/WU3PPBW25LI1J4P_3.jpg?v=1770030601",
+          "url": "https://bonanzasatrangi.com/products/wu3ppbw25li1j24p",
+          "isSale": true
+        },
+        {
+          "name": "Purple-Jacquard-3 Piece (WP3PSSW25S9O10)",
+          "currentPrice": "PKR 7,781",
+          "originalPrice": "PKR 12,969",
+          "discount": "40% Off",
+          "image": "https://cdn.shopify.com/s/files/1/0872/1278/5848/files/Purple-Jacquard-3_Piece_WP3PSSW25S9O10.jpg?v=1772791870",
+          "url": "https://bonanzasatrangi.com/products/wp3pssw25s9o10",
+          "isSale": true
+        },
+        {
+          "name": "B-Pink-Slub-2 Piece (WPSTSBW25B9O42)",
+          "currentPrice": "PKR 4,613",
+          "originalPrice": "PKR 7,689",
+          "discount": "40% Off",
+          "image": "https://cdn.shopify.com/s/files/1/0872/1278/5848/files/052A9837_eb5e481e-24c0-4435-9543-9604daad19a6.jpg?v=1768304609",
+          "url": "https://bonanzasatrangi.com/products/wpstsbw25b9o42",
+          "isSale": true
+        },
+        {
+          "name": "L-Pink-Cambric-2 Piece (WPSDPBS25B8S6)",
+          "currentPrice": "PKR 4,613",
+          "originalPrice": "PKR 7,689",
+          "discount": "40% Off",
+          "image": "https://cdn.shopify.com/s/files/1/0872/1278/5848/files/WPSDPBS25B8S6-_1.jpg?v=1777009276",
+          "url": "https://bonanzasatrangi.com/products/wpsdpbs25b8s6",
+          "isSale": true
+        },
+        {
+          "name": "Peach-Jacquard-3 Piece (WPS25JD3060)",
+          "currentPrice": "PKR 5,770",
+          "originalPrice": "PKR 11,539",
+          "discount": "50% Off",
+          "image": "https://cdn.shopify.com/s/files/1/0872/1278/5848/files/WPS25JD3060_2.jpg?v=1777285344",
+          "url": "https://bonanzasatrangi.com/products/wps25jd3060",
+          "isSale": true
+        },
+        {
+          "name": "L-Pink-Cotton Silk-2 Piece (WPS252SE3059)",
+          "currentPrice": "PKR 5,495",
+          "originalPrice": "PKR 10,989",
+          "discount": "50% Off",
+          "image": "https://cdn.shopify.com/s/files/1/0872/1278/5848/files/WPS252SE3059_1.jpg?v=1784890375",
+          "url": "https://bonanzasatrangi.com/products/wps252se3059",
+          "isSale": true
+        },
+        {
+          "name": "White-Cambric-2 Piece (WPS25SE2078)",
+          "currentPrice": "PKR 5,275",
+          "originalPrice": "PKR 10,549",
+          "discount": "50% Off",
+          "image": "https://cdn.shopify.com/s/files/1/0872/1278/5848/files/WPS25SE2078_1_6890db6f-5d82-46b3-a55c-93af625c90a6.jpg?v=1784888891",
+          "url": "https://bonanzasatrangi.com/products/wps25se2078",
+          "isSale": true
+        }
+      ],
+      "lastChecked": "2026-10-01T20:03:42.650Z"
+    },
+    "charcoal": {
+      "brandId": "charcoal",
+      "brandName": "Charcoal",
+      "domain": "charcoal.com.pk",
+      "status": "none",
+      "maxDiscount": "Special Offers",
+      "products": [],
+      "lastChecked": "2026-10-01T20:03:42.801Z"
+    }
+  }
+}
